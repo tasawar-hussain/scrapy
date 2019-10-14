@@ -119,7 +119,7 @@ the `has-class-extension`_::
     '“It is our choices, Harry, that show what we truly are, far more than our abilities.”',
     '“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”',
     (...)]
-
+blob/1.7/docs/topics/developer-tools.rst
 And with one simple, cleverer XPath we are able to extract all quotes from 
 the page. We could have constructed a loop over our first XPath to increase 
 the number of the last ``div``, but this would have been unnecessarily 
@@ -153,9 +153,9 @@ While scraping you may come across dynamic webpages where some parts
 of the page are loaded dynamically through multiple requests. While 
 this can be quite tricky, the `Network`-tool in the Developer Tools 
 greatly facilitates this task. To demonstrate the Network-tool, let's
-take a look at the page `quotes.toscrape.com/scroll`_. 
+take a look at the page `quotes.toscrape.com/scroll`_ . 
 
-The page is quite similar to the basic `quotes.toscrape.com`_-page, 
+The page is quite similar to the basic `quotes.toscrape.com`_ page, 
 but instead of the above-mentioned ``Next`` button, the page 
 automatically loads new quotes when you scroll to the bottom. We 
 could go ahead and try out different XPaths directly, but instead 
